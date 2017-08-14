@@ -1,0 +1,25 @@
+WP-InstantBackup
+by Andrew Forster & Nick Young
+
+= V0.1.1 - 07.03.2011 =
+* NEW : Now only adminstrators can use the plugin
+* NEW : Added a test ftp settings condition to let users know if the settings they entered are correct
+* NEW : Added a directory test so that users know if the directory they 
+* CHANGED :  Added a condition to check for a valid ftp connection before performing any backups
+
+= V0.1.2 - 08.03.2011 =
+* Fix up appearance, change description text, listen for feedback
+
+= V0.1.3 - 08.03.2011 =
+* CHANGED : Changed FTP Transfer mode from ASCII to binary to ensure that FTP Backups can be opened.
+
+= V0.2.0 - 11.03.2011 =
+* NEW : Backup selection list capability allowing for the selection of multiple files/folders to backup
+* NEW : Date format can now be set for backup filenames
+* NEW : Various new checks such as backup selection list file size and permissions, php mail function, and ftp settings checks.
+* NEW : Added 3 text boxes containing links to the different URL Instant Backup Types
+* UPDATED : All previous options have now been migrated to their new form which is 'wp_instant_backup'
+
+= V0.2.1 - 13.03.2011 =
+* UPDATED : Fixed wordpress root directory backup bug so that root directory backups can be performed using the *.* keyword
+* ADDED : the official WP-InstantBackup Logo
